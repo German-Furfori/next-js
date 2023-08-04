@@ -1,0 +1,5 @@
+En la carpeta app van a estar todos los componentes que van a ser SSR, quiere decir que se van a renderizar en el servidor.
+Entonces, para crear componentes que tengan interactividad con el usuario, tengo que especificarlo con un 'use client'
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)      
+○  (Static)  automatically rendered as static HTML (uses no initial props)
