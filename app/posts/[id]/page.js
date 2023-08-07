@@ -1,9 +1,4 @@
-import React from 'react'
-
-export default function PostPage({ params }) { // Los params ya vienen por defecto
-  const { id } = params;
-  
-  return (
-    <h1>Esto es el post: {id}</h1>
-  )
+export default function PostPage() { // Necesito que exista el path /posts/1, por ejemplo. Sin el page.js no existe el path, pero
+  // quiero al post dentro del layout, para que el children (comentarios) se vean junto con el post
+  return null
 }
